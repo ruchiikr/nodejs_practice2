@@ -23,8 +23,8 @@
 // console.log(buf);
 // console.log(buf.toString());
 
-// const buf1 = Buffer.from("Chai aur")
-// const buf2 = Buffer.from("code")
-// const merged = Buffer.concat([buf1, buf2]);
-// console.log(merged.toString());
-// console.log(merged.length);
+const buf1 = Buffer.from("Chai aur")
+const buf2 = Buffer.from("code")
+const merged = Buffer.concat([buf1, buf2]);
+console.log(merged.toString());
+console.log(merged.length);
